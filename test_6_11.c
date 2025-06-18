@@ -48,5 +48,32 @@
 //	}
 //	return 0;
 //}
+
+//#define 定义常量和宏
+//#define NUM 100
+//int main()
+//{
+//	printf("%d\n", NUM);
+//	int n = NUM;
+//	printf("%d\n", n);
+//	int arr[NUM] = { 0 };
+//	return 0;
+//}
+//#define定义宏
+//宏是有参数
 //
-//
+//#define ADD(x,y) ((x)+(y))		//#define 宏名(参数1，参数2） 宏体
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	
+//	int c =ADD(a, b);
+//	printf("%d\n", c);
+//	return 0;
+//}
+
